@@ -8,6 +8,7 @@
 
 @section('content')
     <p>¡Bienvenido!</p>
+    <h5>"Descubre el ritmo que transforma tus momentos en recuerdos inolvidables. ¡Déjate llevar por el poder de la música y encuentra tu próxima canción favorita!"</h5>
 @stop
 
 @section('css')

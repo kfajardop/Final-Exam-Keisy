@@ -31,16 +31,16 @@
                             {{ $artistaCancione->duracion }}
                         </div>
                         <div class="form-group mb-2 mb20">
-                            <strong>Artista Id:</strong>
-                            {{ $artistaCancione->artista_id }}
+                            <strong>Artista:</strong>
+                            {{ $artistaCancione->artista->nombre }}
                         </div>
                         <div class="form-group mb-2 mb20">
-                            <strong>Genero Id:</strong>
-                            {{ $artistaCancione->genero_id }}
+                            <strong>Género:</strong>
+                            {{ $artistaCancione->cancionGenero->nombre }}
                         </div>
                         <div class="form-group mb-2 mb20">
-                            <strong>Album Id:</strong>
-                            {{ $artistaCancione->album_id }}
+                            <strong>Album:</strong>
+                            {{ $artistaCancione->cancionAlbum->nombre }}
                         </div>
 
                     </div>
